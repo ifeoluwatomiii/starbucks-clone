@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu:starbucks</title>
+</head>
+<body>
+
+<!--step 0-->
+    <div class="flex justify-between items-center px-4 md:px-12  py-4 md:py-[30px] shadow-md z-20">
+        <div class="flex justify-between items-center gap-4">
+            <div>
+                <a href="/"><img class="w-[40px] md:w-[50px] md:block" src="/starbucks-logo.jpg" alt=""></a>
+            </div>
+            <div class="flex gap-4  tracking-widest font-bold hidden lg:flex relative">
+                <a class="underline underline-offset-[45px] decoration-4 decoration-[green]" href="">MENU</a>
+                <a href="">REWARDS</a>
+                <a href="">GIFT CARDS</a>
+            </div>
+        </div>
+        
+        <div class="flex gap-16 hidden lg:flex w-[50%] justify-end items-center">
+            <div class="flex gap-2 font-bold cursor-pointer hover:text-[#006241]">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                  </svg>
+                  
+                  <p>Find a Store</p>
+            </div>
+            
+              <div class="flex justify-between gap-4">
+                <button class="bg-white rounded-full border-black border px-4 py-1 font-bold">Sign In</button>
+              <button class="bg-black text-white rounded-full  px-4 py-1 font-bold">Join Now</button>
+              </div>
+                  
+        </div>
+        <div class="lg:hidden hover:bg-[#E9E9E9] rounded-[100px]">
+            <a href="http://">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                  </svg>
+              </a>
+          </div>
+    </div>
+
+    <div>
+        <div class="flex gap-4 text-sm py-4 px-[110px] bg-[#F9F9F9] hidden lg:flex mt-1 ">
+            <a class="underline underline-offset-8 decoration-[green]" href="">All products</a>
+            <a href="">Featured</a>
+            <a href="">Previous Orders</a>
+            <a href="">Favorite products</a>
+        </div>
+    </div>
+
+    <div>
+        <!--desktop-->
+        <div class="flex ">
+            <div class="flex flex-col leading-[40px] pl-28 py-8 w-[25%]">
+                <h1 class="text-xl font-bold py-4">Drinks</h1>
+                <a href="">Hot Coffee</a>
+                <a href="">Hot Teas</a>
+                <a href="">Hot Drinks</a>
+                <a href="">Frappuccino® <br> Blended Beverages</a>
+                <a href="">Cold Coffee</a>
+                <a href="">Iced Teas</a>
+                <a href="">Cold Drinks</a>
+            </div>
+            <div class="flex flex-col gap-8">
+
+        
+                <div class="py-12 w-[75%]">
+                    <h1 class="font-black text-2xl pb-12">Menu</h1>
+                    <h1 class="font-extrabold text-lg underline underline-offset-8">Drinks</h1>
+                </div>
+                <div>
+                    <div class="flex justify-between items-center gap-[60px]">
+                        <div class="flex justify-center items-center gap-4">
+                            <img class="w-[112px] h-[112px] rounded-full" src="coffee-cup.jpg" alt="">
+                            <h1>Hot Coffee</h1>
+                        </div>
+                        <div>
+                            <div class="flex justify-center items-center gap-4">
+                            <img class="w-[112px] h-[112px] rounded-full" src="coffee-cup.jpg" alt="">
+                            <h1>Hot Teas</h1>
+                        </div>
+                    </div>  
+                    
+                    
+                </div>
+                <div>
+                    <div class="flex justify-between items-center gap-[60px] mt-12">
+                        <div class="flex justify-center items-center gap-4">
+                            <img class="w-[112px] h-[112px] rounded-full" src="coffee-cup.jpg" alt="">
+                            <h1>Hot Coffee</h1>
+                        </div>
+                        <div>
+                            <div class="flex justify-center items-center gap-4">
+                            <img class="w-[112px] h-[112px] rounded-full" src="coffee-cup.jpg" alt="">
+                            <h1>Hot Teas</h1>
+                        </div>
+                    </div>  
+                    
+                    
+                </div>
+
+            </div>
+        
+        </div>
+       
+        
+    </div>
+
+
+</body>

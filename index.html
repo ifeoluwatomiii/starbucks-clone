@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Tailwind</title>
+</head>
+<body>
+
+<!--step 0-->
+    <div class="flex justify-between items-center px-4 md:px-12  py-4 md:py-[30px] shadow-md">
+        <div class="flex justify-between items-center gap-4">
+            <div>
+                <a href="/"><img class="w-[40px] md:w-[50px] md:block" src="/starbucks-logo.jpg" alt=""></a>
+            </div>
+            <div class="flex gap-4  tracking-widest font-bold hidden lg:flex">
+                <a href="/menu.html">MENU</a>
+                <a href="">REWARDS</a>
+                <a href="">GIFT CARDS</a>
+            </div>
+        </div>
+        
+        <div class="flex gap-16 hidden lg:flex w-[50%] justify-end items-center">
+            <div class="flex gap-2 font-bold cursor-pointer hover:text-[#006241]">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                  </svg>
+                  
+                  <p>Find a Store</p>
+            </div>
+            
+              <div class="flex justify-between gap-4">
+                <button class="bg-white rounded-full border-black border px-4 py-1 font-bold">Sign In</button>
+              <button class="bg-black text-white rounded-full  px-4 py-1 font-bold">Join Now</button>
+              </div>
+                  
+        </div>
+        <div class="lg:hidden hover:bg-[#E9E9E9] rounded-[100px]">
+            <a href="http://">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                  </svg>
+              </a>
+          </div>
+    </div>
+
+<!--step 1-->
+    <div class="flex py-8 md:flex-row flex-col w-full">
+        <div class="md:w-[50%] w-[100%]">
+            <img class="w-[100%] h-[100%]" src="general.jpg" alt="">
+        </div>
+        <div class="bg-[#D4E9E2] md:w-[50%] w-[100%] flex flex-col justify-center items-center text-center py-[80px] pr-4 pl-4">
+            <h1 class="font-bold text-lg pb-4">Fall at your fingertips</h1>
+            <p>Ordering your fall favorites is a snap with the app. <br> Join Starbucks® Rewards and tap into fall.</p>
+        </div>
+    </div>
+
+<!--step 2-->
+    <div class="flex py-8 md:flex-row flex-col pt-[10px] text-white w-full">
+        <div class="bg-[#006241] w-[100%] md:w-[50%] flex flex-col justify-center items-center text-center py-[80px] pl-4 pr-4">
+            <h1 class="font-bold text-lg pb-4">PSL for your BFF</h1>
+            <p>Treat your bestie to a Pumpkin Spice Latte and more <br> with a thoughtful gift card.</p>
+        </div>
+        <div class="md:w-[50%] w-[100%]">
+            <img class="w-[100%] h-[100%]" src="general-2.jpg" alt="">
+        </div>
+    </div>
+
+<!--step 3-->
+    <div class="flex py-8 md:flex-row flex-col pt-[10px] w-full">
+        <div class="w-[100%] h-[100%]">
+            <img class="w-[100%]" src="general-3.jpg" alt="">
+        </div>
+        <div class="bg-[#006241] w-[100%] flex flex-col justify-center items-center text-center py-[80px] text-white ">
+            <h1 class="font-bold text-xl pb-4">Welcome home, <br> pumpkin</h1>
+            <p>Fall favorites return with the blissful <br> Pumpkin Spice Latte and smooth Pumpkin <br> Cream Cold Brew.</p>
+        </div>
+    </div>
+
+<!--step 4-->
+    <div class="flex py-8 md:flex-row flex-col pt-[10px] w-full">
+        
+        <div class="bg-[#006241] w-[100%] flex flex-col justify-center items-center text-center py-[80px] text-white">
+            <h1 class="font-bold text-xl pb-4">Layers of baked apple yum</h1>
+            <p>Try the Apple Crisp Oatmilk <br> Macchiato, now nondairy and with <br> Starbucks® Blonde Espresso.</p>
+        </div>
+        <div class="w-[100%] h-[100%]">
+            <img class="w-[100%]" src="general-4.jpg" alt="">
+        </div>
+    </div>
+
+<!--step 5-->
+    <div class="flex py-8 md:flex-row flex-col pt-[10px] w-full">
+        <div class="w-[100%] h-[100%]">
+            <img class="w-[100%] h-[100%]" src="cup.jpg" alt="">
+        </div>
+        <div class="bg-[#006241] w-[100%] flex flex-col justify-center items-center text-center py-[80px] text-white">
+            <h1 class="font-bold text-xl pb-4">Falling for Chai</h1>
+            <p>Cozy up to Chai Tea Latte’s warm spices <br> balanced with creamy milk.</p>
+        </div>
+    </div>
+
+    <!--step 6-->
+    <div class="flex py-8 md:flex-row flex-col pt-[10px] w-full">
+        <div class="bg-[#006241] w-[100%] flex flex-col justify-center items-center text-center py-[80px] text-white ">
+            <h1 class="font-bold text-xl pb-4">Picks of the patch</h1>
+            <p>Choose a comforting classic: Pumpkin <br> Cream Cheese Muffin, Pumpkin & Pepita <br> Loaf or Pumpkin Scone.</p>
+        </div>
+        <div class="w-[100%] h-[100%]">
+            <img src="tiny-wow.png" alt="">
+        </div>
+    </div>
+
+    <!--step 7-->
+    <div class="flex flex-col lg:flex-row px-4 w-full leading-8 lg:justify-center lg:items-start py-4 leading-[50px] shadow-xl mt-2 shadow-black self-center">
+        <div class="lg:w-[20%] leading-[40px] w-full flex lg:justify-start justify-between items-center pb-4">
+            <div class="flex flex-col ">
+                <h1 class="text-xl lg:pb-4 cursor-pointer lg:cursor-text text-base lg:text-lg ">About Us</h1>
+                <div class="lg:flex lg:flex-col hidden text-[grey]">
+                <a class="cursor-pointer hover:text-[black]" href="">Our Company</a>
+                <a class="cursor-pointer hover:text-[black]" href="">Our Coffee</a>
+                <a class="cursor-pointer hover:text-[black]" href=""> Stories and News</a>
+                <a class="cursor-pointer hover:text-[black]" href="">Starbucks Archive</a>
+                <a class="cursor-pointer hover:text-[black]" href="">Investor Relations</a>
+                <a class="cursor-pointer hover:text-[black]" href="">Customer Service</a>
+                </div>
+                
+            </div>
+            <div class="lg:hidden cursor-pointer hover:text-[grey]">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+                  </svg>
+                  
+            </div>
+        </div>
+       
+        <div class="lg:w-[20%] leading-[40px] w-full flex lg:flex-col lg:items-start justify-between lg:justify-center items-center ">
+            <h1 class=" text-xl pb-4 cursor-pointer lg:cursor-text text-base lg:text-lg">Careers</h1>
+            <div class="lg:flex lg:flex-col hidden text-[grey]">
+            
+            <a class="cursor-pointer hover:text-[black]" href="">Culture and Values</a>
+            <a class="cursor-pointer hover:text-[black]" href="">Inclusion, Diversity, and Equity</a>
+            <a class="cursor-pointer hover:text-[black]" href="">College Achievement Plan</a>
+            <a class="cursor-pointer hover:text-[black]" href="">Alumni Community</a>
+            <a class="cursor-pointer hover:text-[black]" href="">U.S. Careers</a>
+            <a class="cursor-pointer hover:text-[black]" href="">International Careers</a>
+            </div>
+            <div class="lg:hidden cursor-pointer hover:text-[grey]">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+                  </svg>
+                  
+            </div>
+            
+        </div>
+        
+        <div class="lg:w-[20%] leading-[40px] w-full flex justify-between lg:flex-col lg:items-start lg: justify-start items-center ">
+            <h1 class="text-xl pb-4 cursor-pointer lg:cursor-text text-base lg:text-lg">Social Impact</h1>
+            <div class="lg:flex lg:flex-col hidden text-[grey]">
+                
+                <a class="cursor-pointer hover:text-[black]" href="">People</a>
+                <a class="cursor-pointer hover:text-[black]" href="">Planet</a>
+                <a class="cursor-pointer hover:text-[black]" href="">Environmental and Social <br> Impact Reporting</a>
+            </div>
+            <div class="lg:hidden cursor-pointer hover:text-[grey]">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+                  </svg>
+                  
+            </div>
+        </div>
+
+       
+
+        <div class="lg:w-[20%] leading-[40px] w-full flex justify-between items-center lg:items-start lg:flex-col lg:justify-start">
+            <h1 class=" text-xl pb-4 cursor-pointer lg:cursor-text text-base lg:text-lg ">For Business Partners</h1>
+            <div class="lg:flex lg:flex-col hidden  text-[grey]">
+            
+            <a class=" cursor-pointer hover:text-[black]" href="">Landlord Support Center</a>
+            <a class=" cursor-pointer hover:text-[black]" href="">Suppliers</a>
+            <a class=" cursor-pointer hover:text-[black]" href="">Corporate Gift Card Sales</a>
+            <a class=" cursor-pointer hover:text-[black]" href="">Office and Foodservice Coffee</a>
+            </div>
+            <div class="lg:hidden  cursor-pointer hover:text-[grey]">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+                  </svg>
+                   
+            </div>
+            
+        </div>
+        <div class="lg:w-[20%] leading-[40px] w-full flex justify-between lg:flex-col lg:justify-start items-center lg:items-start ">
+            <h1 class="text-xl items-end cursor-pointer lg:cursor-text text-base lg:text-lg pb-4">Order and Pickup</h1>
+            
+            <div class="lg:flex lg:flex-col hidden items-start  text-[grey]">
+            
+            <a class="cursor-pointer hover:text-[black]" href="">Order on the App</a>
+            <a class="cursor-pointer hover:text-[black]" href="">Order on the Web</a>
+            <a class="cursor-pointer hover:text-[black]" href="">Delivery</a>
+            <a class="cursor-pointer hover:text-[black]" href="">Order and Pickup Options</a>
+            <a class="cursor-pointer hover:text-[black]" href="">Explore and Find Coffee for Home</a>
+            </div>
+            <div class="lg:hidden cursor-pointer hover:text-[grey]">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+                  </svg>
+                  
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
